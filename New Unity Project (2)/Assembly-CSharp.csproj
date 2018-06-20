@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Artillery Tank\Demo Scene\CameraController.cs" />
     <Compile Include="Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
     <Compile Include="Assets\Cameras\Scripts\AutoCam.cs" />
     <Compile Include="Assets\Cameras\Scripts\FreeLookCam.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\Water.cs" />
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\WaterBase.cs" />
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\HUD_Manger.cs" />
     <Compile Include="Assets\Knight\scripts\rotator.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
@@ -107,6 +109,9 @@
     <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+    <Compile Include="Assets\PointsCollectable.cs" />
+    <Compile Include="Assets\Tent_CR_MAX_550\Scripts\CameraRig.cs" />
+    <Compile Include="Assets\Tent_CR_MAX_550\Scripts\PlayMove.cs" />
     <Compile Include="Assets\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\Utility\AlphaButtonClickMask.cs" />
     <Compile Include="Assets\Utility\AutoMobileShaderSwitch.cs" />
@@ -145,10 +150,12 @@
     <None Include="Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Knight\shaders\doublesidedshader.shader" />
+    <None Include="Assets\Tent_CR_MAX_550\Model\BG_effect\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
     <None Include="Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
     <None Include="Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Tent_CR_MAX_550\Shader\Bg\BG_Shader.shader" />
     <None Include="Assets\Environment 1\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
@@ -161,10 +168,10 @@
     <None Include="Assets\Environment 1\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Environment 1\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/SBCS/Documents/New Unity Project (2)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/SBCS/Documents/GitHub/Unity-backup/New Unity Project (2)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/SBCS/Documents/New Unity Project (2)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/SBCS/Documents/GitHub/Unity-backup/New Unity Project (2)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
