@@ -59,7 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Artillery Tank\Demo Scene\CameraController.cs" />
+    <Compile Include="Assets\Barril pack\FBX\Artillery Tank\Demo Scene\CameraController.cs" />
     <Compile Include="Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
     <Compile Include="Assets\Cameras\Scripts\AutoCam.cs" />
     <Compile Include="Assets\Cameras\Scripts\FreeLookCam.cs" />
@@ -158,8 +158,10 @@
     <None Include="Assets\Tent_CR_MAX_550\Shader\Bg\BG_Shader.shader" />
     <None Include="Assets\Environment 1\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Modular Backdrop Builds\Discription.txt" />
     <None Include="Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Barril pack\ReadMe.txt" />
     <None Include="Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Characters\RollerBall\RollerBallGuidelines.txt" />

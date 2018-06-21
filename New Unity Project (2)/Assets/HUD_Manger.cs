@@ -14,7 +14,7 @@ public class HUD_Manger : MonoBehaviour {
         scoretext.text = "Score: " + score;
 	}
 	
-	void UpdateScore(int amount)
+	public void UpdateScore(int amount)
     {
         score = score + amount;
         scoretext.text = "Score: " + score;
