@@ -5,13 +5,19 @@ using UnityEngine.UI;
 
 public class HUD_Manger : MonoBehaviour {
 
+    public int StartingHealth;
+    int CurrentHealth;
+
     int score;
     public Text scoretext;
+    public Slider healthbar;
 
 	// Use this for initialization
 	void Start () {
         score = 0;
         scoretext.text = "Score: " + score;
+        CurrentHealth = StartingHealth;
+        healthbar.value = CurrentHealth;
 	}
 	
 	public void UpdateScore(int amount)
@@ -19,4 +25,12 @@ public class HUD_Manger : MonoBehaviour {
         score = score + amount;
         scoretext.text = "Score: " + score;
     }
+
+
+    public void UpdateHealth(int amount)
+    {
+        CurrentHealth = CurrentHealth + amount;
+        healthbar.value = CurrentHealth;
+    }
+
 }

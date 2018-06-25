@@ -99,6 +99,7 @@
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\HUD_Manger.cs" />
     <Compile Include="Assets\Knight\scripts\rotator.cs" />
+    <Compile Include="Assets\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
