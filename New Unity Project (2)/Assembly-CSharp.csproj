@@ -88,6 +88,7 @@
     <Compile Include="Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Enemystats.cs" />
     <Compile Include="Assets\Environment 1\Water (Basic)\Scripts\WaterBasic.cs" />
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\Displace.cs" />
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\GerstnerDisplace.cs" />
@@ -97,10 +98,12 @@
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\Water.cs" />
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\WaterBase.cs" />
     <Compile Include="Assets\Environment 1\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\HitEnemy.cs" />
     <Compile Include="Assets\HitPlayer.cs" />
     <Compile Include="Assets\HUD_Manger.cs" />
     <Compile Include="Assets\Knight\scripts\rotator.cs" />
     <Compile Include="Assets\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
     <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
